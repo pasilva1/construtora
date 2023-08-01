@@ -1,0 +1,52 @@
+.info{
+    display: flex;
+        align-items: center;
+        gap: 2rem;
+}
+/*  */
+.info .copy{
+    display: flex;
+}
+.info .copy span{
+    font-weight: 200;
+}
+
+.info .integridade{
+    display: flex;
+    gap: 1rem;
+}
+.info .integridade div{
+    display: flex;
+    align-items: center;
+}
+.info .integridade div svg{
+    font-size: 1.8rem;
+}
+/*  */
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5rem;
+}
+.social .contato{
+    display: flex;
+    gap: 2rem;
+}
+.social .contato a{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    letter-spacing: .5px;
+    font-weight: 200;
+}
+.social .contato a svg{
+    font-size: 1.2rem;
+}
+.social .network{
+    display: flex;
+    gap: 1rem;
+}
+.social .network svg{
+    font-size: 1.4rem;
+}

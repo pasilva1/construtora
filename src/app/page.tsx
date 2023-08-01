@@ -1,9 +1,8 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.container}>
+    <>
       <div className={styles.size}>
         <h1>CONSTRUTORA</h1>
         <h4>
@@ -26,6 +25,6 @@ export default function Home() {
           earum accusamus ipsam harum quam.
         </p>
       </div>
-    </main>
+    </>
   );
 }
