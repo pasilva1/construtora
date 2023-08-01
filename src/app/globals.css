@@ -26,3 +26,14 @@ a:hover {
 ul, li {
   list-style: none;
 }
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  background-color: #d0272a;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff
+}
